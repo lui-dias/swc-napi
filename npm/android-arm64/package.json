@@ -1,5 +1,5 @@
 {
-  "name": "-android-arm64",
+  "name": "@ellandore/cool-android-arm64",
   "version": "0.0.3",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": ".android-arm64.node",
+  "main": "cool.android-arm64.node",
   "files": [
-    ".android-arm64.node"
+    "cool.android-arm64.node"
   ],
   "description": "",
   "author": "",

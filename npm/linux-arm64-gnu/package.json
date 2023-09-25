@@ -1,5 +1,5 @@
 {
-  "name": "-linux-arm64-gnu",
+  "name": "@ellandore/cool-linux-arm64-gnu",
   "version": "0.0.3",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": ".linux-arm64-gnu.node",
+  "main": "cool.linux-arm64-gnu.node",
   "files": [
-    ".linux-arm64-gnu.node"
+    "cool.linux-arm64-gnu.node"
   ],
   "description": "",
   "author": "",

@@ -1,5 +1,5 @@
 {
-  "name": "-linux-x64-gnu",
+  "name": "@ellandore/cool-linux-x64-gnu",
   "version": "0.0.3",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": ".linux-x64-gnu.node",
+  "main": "cool.linux-x64-gnu.node",
   "files": [
-    ".linux-x64-gnu.node"
+    "cool.linux-x64-gnu.node"
   ],
   "description": "",
   "author": "",

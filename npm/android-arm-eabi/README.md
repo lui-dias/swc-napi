@@ -1,3 +1,3 @@
-# `-android-arm-eabi`
+# `@ellandore/cool-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for ``
+This is the **armv7-linux-androideabi** binary for `@ellandore/cool`

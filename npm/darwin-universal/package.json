@@ -1,12 +1,12 @@
 {
-  "name": "-darwin-universal",
+  "name": "@ellandore/cool-darwin-universal",
   "version": "0.0.3",
   "os": [
     "darwin"
   ],
-  "main": ".darwin-universal.node",
+  "main": "cool.darwin-universal.node",
   "files": [
-    ".darwin-universal.node"
+    "cool.darwin-universal.node"
   ],
   "description": "",
   "author": "",

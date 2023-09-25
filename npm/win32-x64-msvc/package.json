@@ -1,5 +1,5 @@
 {
-  "name": "-win32-x64-msvc",
+  "name": "@ellandore/cool-win32-x64-msvc",
   "version": "0.0.3",
   "os": [
     "win32"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": ".win32-x64-msvc.node",
+  "main": "cool.win32-x64-msvc.node",
   "files": [
-    ".win32-x64-msvc.node"
+    "cool.win32-x64-msvc.node"
   ],
   "description": "",
   "author": "",

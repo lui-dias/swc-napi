@@ -1,3 +1,3 @@
-# `-android-arm64`
+# `@ellandore/cool-android-arm64`
 
-This is the **aarch64-linux-android** binary for ``
+This is the **aarch64-linux-android** binary for `@ellandore/cool`

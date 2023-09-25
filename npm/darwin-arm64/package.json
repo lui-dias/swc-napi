@@ -1,5 +1,5 @@
 {
-  "name": "-darwin-arm64",
+  "name": "@ellandore/cool-darwin-arm64",
   "version": "0.0.3",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": ".darwin-arm64.node",
+  "main": "cool.darwin-arm64.node",
   "files": [
-    ".darwin-arm64.node"
+    "cool.darwin-arm64.node"
   ],
   "description": "",
   "author": "",

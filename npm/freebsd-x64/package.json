@@ -1,5 +1,5 @@
 {
-  "name": "-freebsd-x64",
+  "name": "@ellandore/cool-freebsd-x64",
   "version": "0.0.3",
   "os": [
     "freebsd"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": ".freebsd-x64.node",
+  "main": "cool.freebsd-x64.node",
   "files": [
-    ".freebsd-x64.node"
+    "cool.freebsd-x64.node"
   ],
   "description": "",
   "author": "",

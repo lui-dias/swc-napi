@@ -1,5 +1,5 @@
 {
-  "name": "-linux-arm-gnueabihf",
+  "name": "@ellandore/cool-linux-arm-gnueabihf",
   "version": "0.0.3",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": ".linux-arm-gnueabihf.node",
+  "main": "cool.linux-arm-gnueabihf.node",
   "files": [
-    ".linux-arm-gnueabihf.node"
+    "cool.linux-arm-gnueabihf.node"
   ],
   "description": "",
   "author": "",

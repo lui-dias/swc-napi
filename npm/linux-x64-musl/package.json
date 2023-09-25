@@ -1,5 +1,5 @@
 {
-  "name": "-linux-x64-musl",
+  "name": "@ellandore/cool-linux-x64-musl",
   "version": "0.0.3",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": ".linux-x64-musl.node",
+  "main": "cool.linux-x64-musl.node",
   "files": [
-    ".linux-x64-musl.node"
+    "cool.linux-x64-musl.node"
   ],
   "description": "",
   "author": "",

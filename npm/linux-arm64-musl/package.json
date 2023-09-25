@@ -1,5 +1,5 @@
 {
-  "name": "-linux-arm64-musl",
+  "name": "@ellandore/cool-linux-arm64-musl",
   "version": "0.0.3",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": ".linux-arm64-musl.node",
+  "main": "cool.linux-arm64-musl.node",
   "files": [
-    ".linux-arm64-musl.node"
+    "cool.linux-arm64-musl.node"
   ],
   "description": "",
   "author": "",
