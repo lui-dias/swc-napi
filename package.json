@@ -25,7 +25,10 @@
     "@napi-rs/cli": "^2.16.3",
     "ava": "^5.1.1"
   },
-  "repository": "https://github.com/lui-dias/swc-napi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lui-dias/swc-napi.git"
+  },
   "ava": {
     "timeout": "3m"
   },
@@ -167,6 +170,10 @@
     "yocto-queue": "^1.0.0"
   },
   "author": "",
-  "description": "",
-  "name": "@ellandore/cool"
+  "name": "@ellandore/cool",
+  "bugs": {
+    "url": "https://github.com/lui-dias/swc-napi/issues"
+  },
+  "homepage": "https://github.com/lui-dias/swc-napi#readme",
+  "description": ""
 }
