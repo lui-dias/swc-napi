@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "swc-napi.linux-x64-gnu.node",
+  "main": ".linux-x64-gnu.node",
   "files": [
-    "swc-napi.linux-x64-gnu.node"
+    ".linux-x64-gnu.node"
   ],
   "description": "",
   "author": "",
@@ -17,6 +17,7 @@
   "engines": {
     "node": ">= 10"
   },
+  "repository": "https://github.com/lui-dias/swc-napi",
   "libc": [
     "glibc"
   ]

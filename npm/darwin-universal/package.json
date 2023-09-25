@@ -4,14 +4,15 @@
   "os": [
     "darwin"
   ],
-  "main": "swc-napi.darwin-universal.node",
+  "main": ".darwin-universal.node",
   "files": [
-    "swc-napi.darwin-universal.node"
+    ".darwin-universal.node"
   ],
   "description": "",
   "author": "",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/lui-dias/swc-napi"
 }

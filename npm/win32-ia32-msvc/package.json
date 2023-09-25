@@ -7,14 +7,15 @@
   "cpu": [
     "ia32"
   ],
-  "main": "swc-napi.win32-ia32-msvc.node",
+  "main": ".win32-ia32-msvc.node",
   "files": [
-    "swc-napi.win32-ia32-msvc.node"
+    ".win32-ia32-msvc.node"
   ],
   "description": "",
   "author": "",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/lui-dias/swc-napi"
 }

@@ -3,7 +3,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "swc-napi",
+    "name": "",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -25,10 +25,7 @@
     "@napi-rs/cli": "^2.16.3",
     "ava": "^5.1.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lui-dias/swc-napi"
-  },
+  "repository": "https://github.com/lui-dias/swc-napi",
   "ava": {
     "timeout": "3m"
   },
@@ -170,5 +167,6 @@
     "yocto-queue": "^1.0.0"
   },
   "author": "",
-  "description": ""
+  "description": "",
+  "name": ""
 }

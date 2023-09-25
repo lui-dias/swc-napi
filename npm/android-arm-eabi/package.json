@@ -7,14 +7,15 @@
   "cpu": [
     "arm"
   ],
-  "main": "swc-napi.android-arm-eabi.node",
+  "main": ".android-arm-eabi.node",
   "files": [
-    "swc-napi.android-arm-eabi.node"
+    ".android-arm-eabi.node"
   ],
   "description": "",
   "author": "",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/lui-dias/swc-napi"
 }

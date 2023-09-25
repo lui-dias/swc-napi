@@ -7,14 +7,15 @@
   "cpu": [
     "arm"
   ],
-  "main": "swc-napi.linux-arm-gnueabihf.node",
+  "main": ".linux-arm-gnueabihf.node",
   "files": [
-    "swc-napi.linux-arm-gnueabihf.node"
+    ".linux-arm-gnueabihf.node"
   ],
   "description": "",
   "author": "",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/lui-dias/swc-napi"
 }
