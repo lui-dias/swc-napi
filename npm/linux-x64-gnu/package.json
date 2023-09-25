@@ -1,5 +1,5 @@
 {
-  "name": "swc-napi-linux-x64-gnu",
+  "name": "-linux-x64-gnu",
   "version": "0.0.0",
   "os": [
     "linux"
@@ -11,6 +11,8 @@
   "files": [
     "swc-napi.linux-x64-gnu.node"
   ],
+  "description": "",
+  "author": "",
   "license": "MIT",
   "engines": {
     "node": ">= 10"

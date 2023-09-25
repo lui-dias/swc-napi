@@ -1,3 +1,3 @@
-# `swc-napi-darwin-universal`
+# `-darwin-universal`
 
-This is the **universal-apple-darwin** binary for `swc-napi`
+This is the **universal-apple-darwin** binary for ``

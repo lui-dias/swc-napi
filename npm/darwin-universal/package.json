@@ -1,5 +1,5 @@
 {
-  "name": "swc-napi-darwin-universal",
+  "name": "-darwin-universal",
   "version": "0.0.0",
   "os": [
     "darwin"
@@ -8,6 +8,8 @@
   "files": [
     "swc-napi.darwin-universal.node"
   ],
+  "description": "",
+  "author": "",
   "license": "MIT",
   "engines": {
     "node": ">= 10"

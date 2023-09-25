@@ -1,3 +1,3 @@
-# `swc-napi-darwin-arm64`
+# `-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `swc-napi`
+This is the **aarch64-apple-darwin** binary for ``

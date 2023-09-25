@@ -1,3 +1,3 @@
-# `swc-napi-freebsd-x64`
+# `-freebsd-x64`
 
-This is the **x86_64-unknown-freebsd** binary for `swc-napi`
+This is the **x86_64-unknown-freebsd** binary for ``

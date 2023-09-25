@@ -1,5 +1,5 @@
 {
-  "name": "swc-napi-android-arm-eabi",
+  "name": "-android-arm-eabi",
   "version": "0.0.0",
   "os": [
     "android"
@@ -11,6 +11,8 @@
   "files": [
     "swc-napi.android-arm-eabi.node"
   ],
+  "description": "",
+  "author": "",
   "license": "MIT",
   "engines": {
     "node": ">= 10"

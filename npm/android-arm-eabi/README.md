@@ -1,3 +1,3 @@
-# `swc-napi-android-arm-eabi`
+# `-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `swc-napi`
+This is the **armv7-linux-androideabi** binary for ``
