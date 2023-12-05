@@ -1,3 +1,3 @@
-# `@ellandore/cool-linux-arm-gnueabihf`
+# `@lui-dias/swc-napi-linux-arm-gnueabihf`
 
-This is the **armv7-unknown-linux-gnueabihf** binary for `@ellandore/cool`
+This is the **armv7-unknown-linux-gnueabihf** binary for `@lui-dias/swc-napi`

@@ -1,3 +1,3 @@
-# `@ellandore/cool-linux-arm64-musl`
+# `@lui-dias/swc-napi-linux-arm64-musl`
 
-This is the **aarch64-unknown-linux-musl** binary for `@ellandore/cool`
+This is the **aarch64-unknown-linux-musl** binary for `@lui-dias/swc-napi`

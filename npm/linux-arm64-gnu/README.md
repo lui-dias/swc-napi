@@ -1,3 +1,3 @@
-# `@ellandore/cool-linux-arm64-gnu`
+# `@lui-dias/swc-napi-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `@ellandore/cool`
+This is the **aarch64-unknown-linux-gnu** binary for `@lui-dias/swc-napi`

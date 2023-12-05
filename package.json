@@ -3,7 +3,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "cool",
+    "name": "swc-napi",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -170,7 +170,7 @@
     "yocto-queue": "^1.0.0"
   },
   "author": "",
-  "name": "@ellandore/cool",
+  "name": "@lui-dias/swc-napi",
   "bugs": {
     "url": "https://github.com/lui-dias/swc-napi/issues"
   },

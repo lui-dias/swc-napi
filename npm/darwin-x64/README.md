@@ -1,3 +1,3 @@
-# `@ellandore/cool-darwin-x64`
+# `@lui-dias/swc-napi-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `@ellandore/cool`
+This is the **x86_64-apple-darwin** binary for `@lui-dias/swc-napi`

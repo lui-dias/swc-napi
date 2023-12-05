@@ -1,5 +1,5 @@
 {
-  "name": "@ellandore/cool-darwin-arm64",
+  "name": "@lui-dias/swc-napi-darwin-arm64",
   "version": "0.0.7",
   "os": [
     "darwin"
@@ -7,15 +7,22 @@
   "cpu": [
     "arm64"
   ],
-  "main": "cool.darwin-arm64.node",
+  "main": "swc-napi.darwin-arm64.node",
   "files": [
-    "cool.darwin-arm64.node"
+    "swc-napi.darwin-arm64.node"
   ],
   "description": "",
   "author": "",
+  "homepage": "https://github.com/lui-dias/swc-napi#readme",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/lui-dias/swc-napi"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lui-dias/swc-napi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lui-dias/swc-napi/issues"
+  }
 }

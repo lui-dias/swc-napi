@@ -1,3 +1,3 @@
-# `@ellandore/cool-darwin-universal`
+# `@lui-dias/swc-napi-darwin-universal`
 
-This is the **universal-apple-darwin** binary for `@ellandore/cool`
+This is the **universal-apple-darwin** binary for `@lui-dias/swc-napi`

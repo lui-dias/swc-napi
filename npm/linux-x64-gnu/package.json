@@ -1,5 +1,5 @@
 {
-  "name": "@ellandore/cool-linux-x64-gnu",
+  "name": "@lui-dias/swc-napi-linux-x64-gnu",
   "version": "0.0.7",
   "os": [
     "linux"
@@ -7,17 +7,24 @@
   "cpu": [
     "x64"
   ],
-  "main": "cool.linux-x64-gnu.node",
+  "main": "swc-napi.linux-x64-gnu.node",
   "files": [
-    "cool.linux-x64-gnu.node"
+    "swc-napi.linux-x64-gnu.node"
   ],
   "description": "",
   "author": "",
+  "homepage": "https://github.com/lui-dias/swc-napi#readme",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/lui-dias/swc-napi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lui-dias/swc-napi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lui-dias/swc-napi/issues"
+  },
   "libc": [
     "glibc"
   ]

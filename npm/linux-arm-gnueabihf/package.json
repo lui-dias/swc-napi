@@ -1,5 +1,5 @@
 {
-  "name": "@ellandore/cool-linux-arm-gnueabihf",
+  "name": "@lui-dias/swc-napi-linux-arm-gnueabihf",
   "version": "0.0.7",
   "os": [
     "linux"
@@ -7,15 +7,22 @@
   "cpu": [
     "arm"
   ],
-  "main": "cool.linux-arm-gnueabihf.node",
+  "main": "swc-napi.linux-arm-gnueabihf.node",
   "files": [
-    "cool.linux-arm-gnueabihf.node"
+    "swc-napi.linux-arm-gnueabihf.node"
   ],
   "description": "",
   "author": "",
+  "homepage": "https://github.com/lui-dias/swc-napi#readme",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/lui-dias/swc-napi"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lui-dias/swc-napi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lui-dias/swc-napi/issues"
+  }
 }

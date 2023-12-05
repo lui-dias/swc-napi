@@ -1,5 +1,5 @@
 {
-  "name": "@ellandore/cool-android-arm64",
+  "name": "@lui-dias/swc-napi-android-arm64",
   "version": "0.0.7",
   "os": [
     "android"
@@ -7,15 +7,22 @@
   "cpu": [
     "arm64"
   ],
-  "main": "cool.android-arm64.node",
+  "main": "swc-napi.android-arm64.node",
   "files": [
-    "cool.android-arm64.node"
+    "swc-napi.android-arm64.node"
   ],
   "description": "",
   "author": "",
+  "homepage": "https://github.com/lui-dias/swc-napi#readme",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/lui-dias/swc-napi"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lui-dias/swc-napi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lui-dias/swc-napi/issues"
+  }
 }
