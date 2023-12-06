@@ -1,7 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
-  APP_NAME: swc-napi
+  APP_NAME: a
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 permissions:
   contents: write
@@ -93,13 +93,12 @@ jobs:
     name: stable - ${{ matrix.settings.target }} - node@18
     runs-on: ${{ matrix.settings.host }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         if: ${{ !matrix.settings.docker }}
         with:
           node-version: 18
-          check-latest: true
           cache: yarn
       - name: Install
         uses: dtolnay/rust-toolchain@stable
@@ -120,7 +119,7 @@ jobs:
       - uses: goto-bus-stop/setup-zig@v2
         if: ${{ matrix.settings.target == 'armv7-unknown-linux-gnueabihf' }}
         with:
-          version: 0.10.1
+          version: 0.11.0
       - name: Setup toolchain
         run: ${{ matrix.settings.setup }}
         if: ${{ matrix.settings.setup }}
@@ -132,11 +131,10 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Setup node x86
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         if: matrix.settings.target == 'i686-pc-windows-msvc'
         with:
           node-version: 18
-          check-latest: true
           cache: yarn
           architecture: x86
       - name: Build in docker
@@ -169,17 +167,15 @@ jobs:
           - host: windows-latest
             target: x86_64-pc-windows-msvc
         node:
-          - '14'
-          - '16'
           - '18'
+          - '20'
     runs-on: ${{ matrix.settings.host }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          check-latest: true
           cache: yarn
       - name: Install dependencies
         run: yarn install
@@ -201,17 +197,15 @@ jobs:
       fail-fast: false
       matrix:
         node:
-          - '14'
-          - '16'
           - '18'
+          - '20'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          check-latest: true
           cache: yarn
       - name: Install dependencies
         run: yarn install
@@ -233,17 +227,15 @@ jobs:
       fail-fast: false
       matrix:
         node:
-          - '14'
-          - '16'
           - '18'
+          - '20'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          check-latest: true
           cache: yarn
       - name: Install dependencies
         run: |
@@ -267,12 +259,11 @@ jobs:
       fail-fast: false
       matrix:
         node:
-          - '14'
-          - '16'
           - '18'
+          - '20'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
@@ -287,7 +278,7 @@ jobs:
           yarn config set supportedArchitectures.libc "glibc"
           yarn install
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v3
         with:
           platforms: arm64
       - run: docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
@@ -306,7 +297,7 @@ jobs:
       - build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
@@ -321,7 +312,7 @@ jobs:
           yarn config set supportedArchitectures.libc "musl"
           yarn install
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v3
         with:
           platforms: arm64
       - run: docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
@@ -341,12 +332,11 @@ jobs:
       fail-fast: false
       matrix:
         node:
-          - '14'
-          - '16'
           - '18'
+          - '20'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
@@ -360,7 +350,7 @@ jobs:
           yarn config set supportedArchitectures.cpu "arm"
           yarn install
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v3
         with:
           platforms: arm
       - run: docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
@@ -379,12 +369,11 @@ jobs:
       - build
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-          check-latest: true
           cache: yarn
       - name: Install dependencies
         run: yarn install
@@ -418,12 +407,11 @@ jobs:
       - test-linux-arm-gnueabihf-binding
       - universal-macOS
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-          check-latest: true
           cache: yarn
       - name: Install dependencies
         run: yarn install
